@@ -2,6 +2,15 @@
 # Author: Denys Makeienko
 # https://github.com/dmakeienko/azcli
 
+### Clouds
+
+alias azc='az cloud'
+alias azcl='azc list'
+alias azclt='azcl --output table'
+alias azcs='azc set'
+alias azcsp='azcs --name AzureCloud'
+alias azcsg='azcs --name AzureUSGovernment'
+
 
 ### Subscriptions
 
